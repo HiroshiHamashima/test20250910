@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World Popup</title>
+</head>
+<body>
+    <h1>Hello World Popup Application</h1>
+    <p>Click the button below to show a pop-up window with "hello world":</p>
+    <button onclick="showHelloWorldPopup()">Show Hello World Popup</button>
+    
+    <script>
+        function showHelloWorldPopup() {
+            alert("hello world");
+        }
+        
+        // Automatically show the popup when the page loads
+        window.onload = function() {
+            showHelloWorldPopup();
+        };
+    </script>
+</body>
+</html>
